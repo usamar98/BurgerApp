@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Inclusive+Sans&family=Kdam+Thmor+Pro&display=swap');
+:root{
+font-family: 'Croissant One', serif;
+font-family: 'Inclusive Sans', sans-serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+color: rgb(58, 17, 17);
+}
+.third{
+    padding-top: 100px;
+}
+.card{
+    border: none;
+}
+.text-1{
+    background-color: rgb(242, 242, 10);
+    padding: 20px 40px;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-weight: 600;
+    color:   rgb(58, 17, 17);
+}
+.heading{
+    font-family: 'Inclusive Sans', sans-serif;
+    font-weight: bolder;
+    color:   rgb(58, 17, 17);
+    font-size: 3vw;
+    padding: 20px;
+}
+.first-paragrapah{
+    font-family: 'Inclusive Sans', sans-serif;
+    font-weight: 500;
+    color:   rgb(58, 17, 17);
+    font-size: 1.2vw;
+    line-height: 1.2;
+}
+.btn{
+    font-family: 'Inclusive Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(165, 33, 33);
+    padding: 15px 40px;
+}
+.head{
+    font-family: 'Inclusive Sans', sans-serif;
+    font-weight: 500;
+    color:   rgb(58, 17, 17);
+    font-size: 1em;
+}
+.p{
+    font-size: 1.2em;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-weight: 500;
+    color:   rgb(58, 17, 17);
+}
+@media (max-width: 768px) {
+
+    .third{
+        padding-top: 50px;
+    }
+}

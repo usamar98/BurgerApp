@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Inclusive+Sans&family=Kdam+Thmor+Pro&display=swap');
+:root{
+font-family: 'Croissant One', serif;
+font-family: 'Inclusive Sans', sans-serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.section-6{
+   padding-top: 100px;
+   
+  
+}
+.six {
+   background: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0)), url('../assets/Image2.png') center/cover no-repeat; 
+
+  }
+  .back{
+   background-color: aliceblue;
+   width: 20px;
+   height: 20px;
+  }
+.space ul{
+   list-style: none;
+   display: flex;
+   justify-content: end;
+   gap: 20px;
+   font-size:10px;
+   color: black;
+   border-radius: 50%;
+   border: none;
+ 
+   
+}
+.space ul li {
+   height: 35px;
+   width: 35px;
+   background-color: white;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+@media (max-width: 768px) {
+
+   .section-6{
+      padding-top: 50px;
+      
+     
+   }
+}

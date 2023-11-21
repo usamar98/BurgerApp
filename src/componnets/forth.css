@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Inclusive+Sans&family=Kdam+Thmor+Pro&display=swap');
+:root{
+font-family: 'Croissant One', serif;
+font-family: 'Inclusive Sans', sans-serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+background-color: rgb(165, 33, 33);
+color:   rgb(58, 17, 17);
+}
+.four{
+    padding-top: 100px;
+}
+.discover{
+    font-size: 1em;
+    color:   rgb(58, 17, 17);
+    font-weight: 700;
+    line-height: 1;
+}
+.Upcoming-Event{
+    font-size: 2em;
+    color:   rgb(58, 17, 17);
+    font-weight: 900;
+    line-height: 1;
+}
+.ct{
+    font-size: 1.4em;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.col-padding{
+    padding: 0;
+}
+.row-padding{
+    padding: 30px;
+}
+.swiper-button-next ,.swiper-button-prev{
+    display: none;
+}
+.swiper-pagination, .swiper-pagination-clickable ,.swiper-pagination-bullets ,.swiper-pagination-horizontal{
+  
+    margin-left: -31%;
+   
+    position: absolute;
+    
+
+}
+.swiper-pagination-bullet{
+    width: 20px;
+    height: 20px;
+    background-color: none;
+    margin-left: 0px;
+}
+.swiper-pagination-bullet-active{
+    background-color: yellow;
+}
+.shadow{
+   
+    
+    
+}
+@media (max-width: 768px) {
+
+    .four{
+        padding-top: 50px;
+    }
+}
+@media (max-width: 1390px) {
+
+    .swiper-pagination, .swiper-pagination-clickable ,.swiper-pagination-bullets ,.swiper-pagination-horizontal{
+        margin-top: 20%;
+     }
+}

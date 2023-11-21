@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Inclusive+Sans&family=Kdam+Thmor+Pro&display=swap');
+:root{
+font-family: 'Croissant One', serif;
+font-family: 'Inclusive Sans', sans-serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+background-color: rgb(165, 33, 33);
+color:   rgb(58, 17, 17);
+}
+.fifth{
+    padding-top: 100px;
+}
+.margin{
+    margin-top: 350px;
+}
+
+.margin-left{
+    margin-top: 30%;
+}
+.bold{
+    font-size: 2vw;
+    font-weight: 800;
+    font-family: 'Inclusive Sans', sans-serif;
+    color:   rgb(58, 17, 17);
+}
+.text-size{
+    font-size: 3vw;
+    font-weight: 900;
+    font-family: 'Inclusive Sans', sans-serif;
+    color:   rgb(58, 17, 17);
+}
+#input5{
+    background-color: rgb(165, 33, 33);
+    color: white;
+    font-weight: 600;
+}
+.column {
+    padding: 15px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.column::before,
+.column::after {
+    content: "";
+    position: absolute;
+    height: 200px;
+    top: 80px;
+    left: 60px;
+    right: 10px;
+    bottom: 10px;
+    background: url('../assets/Burger.png') center center no-repeat;
+    background-size: cover;
+
+}
+
+.column::after {
+    background: url('../assets/Bottle.png') center center no-repeat;
+    background-size: cover;
+    height: 300px;
+    top: 430px;
+    left: 200px;
+    z-index: 1;
+}
+.coumn-2{
+
+    position: relative;
+}
+.coumn-2::before,
+.coumn-2::after {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 300px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: url('../assets/Images.png') center center no-repeat;
+    background-size: cover;
+    
+
+}
+
+

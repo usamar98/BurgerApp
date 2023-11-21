@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Inclusive+Sans&family=Kdam+Thmor+Pro&display=swap');
+:root{
+font-family: 'Croissant One', serif;
+font-family: 'Inclusive Sans', sans-serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.txt-1{
+    font-size: 22px;
+    color: rgb(58, 17, 17);
+    font-weight: 500;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+/* .nav-item {
+    font-size: 1.2vw;
+} */
+.navbar ul {
+   gap: 50px;
+   font-weight: 700;
+  }
+  .navbar ul li{
+    color: rgb(44, 34, 34);
+   }
+.section1{
+    margin: 0%;
+    padding: 0%;
+    background-image: url('../assets/Rectangle.png') ;
+       
+}
+.nav-link{
+    font-size: 1.5em;
+}
+.display-4{
+    font-size: 100px;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px  #ffffff;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+.display-6{
+    font-size: 4vw;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px  #ffffff;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+.burger div h4 {
+    border: 2px dashed rgb(44, 34, 34);
+    color: rgb(44, 34, 34);
+    font-family: Micro;
+    font-size: 1.55vw;
+}
+.Capture{
+    width: 42vw;
+}
+@media (max-width: 768px) {
+
+    .burger div h4 {
+        font-size: 2.5vw!important;
+    }
+  
+   
+
+ }
+ 
+ @media (min-width: 300px) and (max-width: 991.99px) {
+    .navbar-toggler{
+    
+        margin-left: 80%;
+       
+       }
+      
+       
+  }
+  @media  (max-width: 991.99px) {
+    .Capture{
+        width: 70%;
+    }
+  
+
+    @media  (max-width: 400px) {
+      
+          .nav-link{
+            font-size: 1em;
+            line-height: 6;
+            /* margin-left: -80%; */
+        }
+    }
+
+
+
+
+    .navbar-nav{
+        display: flex;
+        flex-direction: row;
+    }
+       
+  }
+  @media  (max-width: 600px) {
+    .Capture{
+        width: 70%;
+    }
+      
+       
+  }
+  @media  (max-width: 800px) {
+    .Vector_Smart_Object{
+        display: none;
+    }
+      
+       
+  }
+  
+  
