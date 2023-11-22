@@ -1,127 +1,38 @@
-import React, { useRef, useState } from 'react';
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/effect-fade';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-
-
-// import required modules
-import { EffectFade, Navigation, Pagination } from 'swiper/modules';
+import React, { useState, useEffect } from 'react';
 import './forth.css'
-import Image4 from '../assets/Image4.png'
+import Image4 from '../assets/Image4.png';
+
 const FourthComponent = () => {
   
-  const pagination = {
-    clickable: true,
-    renderBullet: function (index, className) {
-      return '<span class="' + className + '">' + (index + 1) + '</span>';
-    },
-  };
+  
+
   return (
-
-   <>
-   <Swiper
-        spaceBetween={30}
-        effect={'fade'}
-        navigation={true}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[EffectFade, Navigation, Pagination]}
-        className="mySwiper"
-        autoplay={{ delay: 500, disableOnInteraction: false }}
-      >
-     <section>
-     
-     <SwiperSlide>
-   <div className="container four">
-  <div className="row  shadow p-4  row-padding">
-
-    <div className="col-xxl-6 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-padding">
-      <div className="card ">
-        <div className="card-body">
-          <h5 className="card-title discover text-uppercase">Discover</h5>
-          <p className="card-text Upcoming-Event text-uppercase">Upcoming Event</p>
-          <p className="card-text ct">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum fugiat voluptate cum,
-            sapiente expedita repudiandae nobis voluptatum illo 
+    <>
+    <section className='section4 four '>
+    <div  className="container shadow my-5 ">
+      <div className="row px-3 py-4 event">
+        <div className="col-lg-6 my-lg-0 my-3 col-sm-12 my-sm-3 pe-5 position-relative">
+          <h3 className="discover text-uppercase">discover</h3>
+          <h1 className="Upcoming-Event text-uppercase">upcoming events</h1>
+          <p className="ct">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa facilis pariatur ex harum ipsa illum soluta, tenetur porro minus similique deserunt minima eligendi consectetur. Architecto quia magnam assumenda a provident!
           </p>
+          <div className="buttons d-flex position-absolute bottom-0 gap-2 mt-lg-0">
+          <span class="p-lg-2 p-1 p-md-1 p-sm-1 rounded-circle "></span>
+          <span class="p-lg-2 p-1 p-md-1 p-sm-1 rounded-circle active"></span>
+          <span class="p-lg-2 p-1 p-md-1 p-sm-1 rounded-circle "></span>
+          </div>
+        </div>
+        <div className="col-lg-6 my-lg-0 my-3 col-sm-12 my-sm-3 position-relative d-flex overflow-hidden burger-img">
+        <img class="w-100  " src={Image4} alt=""/>
+        <img class="w-100 active-img position-absolute top-0 start-0" src={Image4} alt=""/>
+        <img class="w-100  position-absolute top-0 start-0" src={Image4} alt=""/> 
+        </div>
         </div>
       </div>
-    </div>
+      </section>
+    </>
+  );
+};
 
-
-    <div className="col-xxl-6 col-xl-12 col-lg-12 col-md-12 col-sm-12 position-relative col-padding">
-      <div className="card image-container bg-white shadow">
-        <img src={Image4} alt="Image" className="  Image4" />
-      </div>
-    </div>
-  </div>
-</div>
-
-</SwiperSlide>
-<SwiperSlide>
-   <div className="container four">
-  <div className="row  shadow  p-4  row-padding">
-
-    <div className="col-xxl-6 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-padding">
-      <div className="card ">
-        <div className="card-body">
-          <h5 className="card-title discover text-uppercase">Discover</h5>
-          <p className="card-text Upcoming-Event text-uppercase">Upcoming Event</p>
-          <p className="card-text ct">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum fugiat voluptate cum,
-            sapiente expedita repudiandae nobis voluptatum illo 
-          </p>
-        </div>
-      </div>
-    </div>
-
-
-    <div className="col-xxl-6 col-xl-12 col-lg-12 col-md-12 col-sm-12 position-relative col-padding">
-      <div className="card image-container bg-white shadow">
-        <img src={Image4} alt="Image" className="  Image4" />
-      </div>
-    </div>
-  </div>
-</div>
-
-</SwiperSlide>
-<SwiperSlide>
-   <div className="container four">
-  <div className="row  shadow  row-padding">
-
-    <div className="col-xxl-6 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-padding">
-      <div className="card ">
-        <div className="card-body">
-          <h5 className="card-title discover text-uppercase">Discover</h5>
-          <p className="card-text Upcoming-Event text-uppercase">Upcoming Event</p>
-          <p className="card-text ct">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum fugiat voluptate cum,
-            sapiente expedita repudiandae nobis voluptatum illo 
-          </p>
-        </div>
-      </div>
-    </div>
-
-
-    <div className="col-xxl-6 col-xl-12 col-lg-12 col-md-12 col-sm-12 position-relative col-padding">
-      <div className="card image-container bg-white shadow">
-        <img src={Image4} alt="Image" className="  Image4" />
-      </div>
-    </div>
-  </div>
-</div>
-
-</SwiperSlide>
-   </section>
-   </Swiper>
-   </>
-  )
-}
-
-export default FourthComponent
+export default FourthComponent;

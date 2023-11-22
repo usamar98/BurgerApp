@@ -13,7 +13,7 @@ const SecondComponent = () => {
     <div class=" col-lg-6 col-md-12 col-sm-12 ">
     <div class="card bg-dark text-white ">
             <img src={BurgerImage} alt="Right Image 1" class="card-img img-fluid" />
-            <div class="card-img-overlay">
+            <div class="card-img-overlay overlay">
               <h5 class="card-title font-size mb">TRY IT TODAY</h5>
               <p class="card-text font-size-p mb">MOST POPULAR BURGER</p>
             

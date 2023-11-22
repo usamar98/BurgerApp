@@ -4,12 +4,23 @@ font-family: 'Croissant One', serif;
 font-family: 'Inclusive Sans', sans-serif;
 font-family: 'Kdam Thmor Pro', sans-serif;
 }
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+    background-image: url('../assets/Rectangle.png') ;
+  }
+  .second-container {
+    margin-top: 100px; 
+  }
 .txt-1{
     font-size: 22px;
     color: rgb(58, 17, 17);
     font-weight: 500;
     font-family: 'Inclusive Sans', sans-serif;
 }
+
 /* .nav-item {
     font-size: 1.2vw;
 } */
@@ -21,8 +32,7 @@ font-family: 'Kdam Thmor Pro', sans-serif;
     color: rgb(44, 34, 34);
    }
 .section1{
-    margin: 0%;
-    padding: 0%;
+   
     background-image: url('../assets/Rectangle.png') ;
        
 }
@@ -56,10 +66,19 @@ font-family: 'Kdam Thmor Pro', sans-serif;
     .burger div h4 {
         font-size: 2.5vw!important;
     }
-  
    
-
  }
+
+ 
+ @media (max-width: 801px) {
+
+    .second-container{
+        margin-top: 1;
+    }
+   
+ }
+
+
  
  @media (min-width: 300px) and (max-width: 991.99px) {
     .navbar-toggler{

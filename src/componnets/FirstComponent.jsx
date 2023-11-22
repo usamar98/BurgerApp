@@ -7,8 +7,9 @@ const FirstComponent = () => {
   return (
     <>
     <section className='section1'>
+    <header class="fixed-header">
     <div className="container  first">
-  <div className="row pt-5 ">
+  <div className="row pt-5  ">
 
     <div className=" col-6 ">
       <img src={Logo} alt="Left Logo" class="img-fluid" className='Logo' height={60}/>
@@ -47,8 +48,9 @@ const FirstComponent = () => {
 
 
       </div>
-
-
+ </div>
+ </header>
+ <div className="container  second-container">
   <div className="row d-flex justify-content-center align-items-center justify">
   <div className="col-md-6 col-xs-12 col-xl-12-12 burger">
     <div className=''>

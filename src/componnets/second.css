@@ -44,10 +44,19 @@ font-family: 'Kdam Thmor Pro', sans-serif;
     
      margin-top: 27px;
     }
+    .card-img-overlay{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .overlay{
+        width: 50%;
+    }
 }
 @media (max-width: 768px) {
 
     .second{
-        padding-top: 50px;
+       padding-top: 50px;
     }
 }

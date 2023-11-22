@@ -7,8 +7,8 @@ const Sixcomponent = () => {
     <>
     <section className='section-6'>
 
-    <div className="container six">
-  <div className="row ">
+    <div className="container six six-content">
+  <div className="row  ">
     <div className="col-md-5 mx-md-auto pt-3">
       <div className="custom-card">
         <div className="card-body mb-5">
@@ -21,7 +21,7 @@ const Sixcomponent = () => {
     <div className="col-md-5 mb-3 mt-auto">
       <div className="custom-card text-center">
         <div className="card-body">
-          <div className="infor text-start">
+          <div className="infor text-start addres">
             <p className='text-light'><FaFireFlameSimple />MAIN ROAD, BUILDING NAME, COUNTRY</p>
             <p className='text-light'><FaBusinessTime />INFO@COMPANY.COM</p>
           </div>
